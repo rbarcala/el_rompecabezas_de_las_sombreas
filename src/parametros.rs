@@ -1,7 +1,6 @@
-use std::io::BufRead;
-
 const RANGO_THETA: std::ops::RangeInclusive<u32> = 10..=80;
 const RANGO_N: std::ops::RangeInclusive<usize> = 1..=100_000;
+
 
 /// Estructura para almacenar los parámetros de entrada
 pub struct Parametros {

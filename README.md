@@ -3,7 +3,7 @@
 Rust: El Rompecabezas de las Sombras
 Introducción
 
-La modelización de fenómenos del mundo real es una de las tareas fundamentales de la programación. Desde la simulación de sistemas físicos complejos y el renderizado de gráficos en videojuegos hasta el análisis de datos geoespaciales, la capacidad de representar objetos, entidades y sus interacciones a través de estructuras de datos es una habilidad esencial. En estos dominios, la geometría computacional juega un papel crucial, proporcionando las herramientas para describir y manipular formas, espacios y las relaciones entre ellos.
+
 Descripción del Problema
 
 Este ejercicio se centra en un escenario geométrico simple pero interesante: calcular la longitud total de las sombras proyectadas por un conjunto de entidades en un mundo bidimensional.
@@ -96,28 +96,36 @@ Recursos Útiles
 
 Restricciones
 
-    Escribir el programa sin utilizar .unwrap() o .expect(). Todo caso de error deberá manejarse idiomáticamente con las estructuras y funciones brindadas por el lenguaje.
-    No se permite que el programa lance un panic!().
-    No se permite utilizar la función exit(). Se deberá salir del programa finalizando el scope de la función main.
-    No se permite utilizar el módulo mem para la manipulación de memoria.
-    Para realizar un uso adecuado de memoria y respetar las reglas de ownership se deberá evitar el uso de .clone() y .copy() en las estructuras principales de datos.
-    Todo el programa puede ser resuelto con lo aprendido en clase hasta la presentación de este ejercicio. No se espera (ni se acepta) que se utilicen estructuras relacionadas a concurrencia o redes para resolución de este ejercicio.
+    [x] Escribir el programa sin utilizar .unwrap() o .expect(). Todo caso de error deberá manejarse idiomáticamente con las estructuras y funciones brindadas por el lenguaje.
+    [x] No se permite que el programa lance un panic!().
+    [x] No se permite utilizar la función exit(). Se deberá salir del programa finalizando el scope de la función main.
+    [x] No se permite utilizar el módulo mem para la manipulación de memoria.
+    [x] Para realizar un uso adecuado de memoria y respetar las reglas de ownership se deberá evitar el uso de .clone() y .copy() en las estructuras principales de datos.
+    [x] Todo el programa puede ser resuelto con lo aprendido en clase hasta la presentación de este ejercicio. 
+    [x]No se espera (ni se acepta) que se utilicen estructuras relacionadas a concurrencia o redes para resolución de este ejercicio.
 
 Requerimientos no funcionales
 
 Los siguientes son los requerimientos no funcionales para la resolución del proyecto:
 
-    El proyecto deberá ser desarrollado en la última versión estable de Rust, usando las herramientas de la biblioteca estándar.
-    Se deben implementar tests unitarios y de integración de las funcionalidades que se consideren más importantes.
-    No se permite utilizar crates externos.
-    El código fuente debe compilarse en la versión estable del compilador y no se permite utilizar bloques unsafe.
-    El código deberá funcionar en ambiente Unix / Linux.
-    El programa deberá ejecutarse en la línea de comandos, leyendo de stdin y escribiendo a stdout.
-    La compilación no debe arrojar warnings del compilador, ni del linter clippy.
-    Las funciones y los tipos de datos (struct) deben estar documentados siguiendo el estándar de cargo doc.
-    El código debe formatearse utilizando cargo fmt.
-    Las funciones no deben tener una extensión mayor a 30 líneas. Si se requiriera una extensión mayor, se deberá particionarla en varias funciones.
-    Cada tipo de dato implementado debe ser colocado en una unidad de compilación (archivo fuente) independiente.
+    [] El proyecto deberá ser desarrollado en la última versión estable de Rust, usando las herramientas de la biblioteca estándar.
+
+    []Se deben implementar tests unitarios y de integración de las funcionalidades que se consideren más importantes.
+
+    []No se permite utilizar crates externos.
+    
+    []El código fuente debe compilarse en la versión estable del compilador y no se permite utilizar bloques unsafe.
+    []El código deberá funcionar en ambiente Unix / Linux.
+    []El programa deberá ejecutarse en la línea de comandos, leyendo de stdin y escribiendo a stdout.
+    []La compilación no debe arrojar warnings del compilador, ni del linter clippy.
+    
+    []Las funciones y los tipos de datos (struct) deben estar documentados siguiendo el estándar de cargo doc.
+    
+    []El código debe formatearse utilizando cargo fmt.
+
+    []Las funciones no deben tener una extensión mayor a 30 líneas. Si se requiriera una extensión mayor, se deberá particionarla en varias funciones.
+    
+    []Cada tipo de dato implementado debe ser colocado en una unidad de compilación (archivo fuente) independiente.
 
     ADVERTENCIA! El proyecto deberá realizarse de manera individual. Cualquier tipo de copia significa la expulsión automática de la materia. No está permitido el uso de código generado por ninguna IA, ni copiar código de soluciones existentes en internet.
 
