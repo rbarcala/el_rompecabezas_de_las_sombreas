@@ -115,28 +115,16 @@ Los siguientes son los requerimientos no funcionales para la resolución del pro
     []No se permite utilizar crates externos.
     
     []El código fuente debe compilarse en la versión estable del compilador y no se permite utilizar bloques unsafe.
-    []El código deberá funcionar en ambiente Unix / Linux.
+    [x]El código deberá funcionar en ambiente Unix / Linux.
     []El programa deberá ejecutarse en la línea de comandos, leyendo de stdin y escribiendo a stdout.
     []La compilación no debe arrojar warnings del compilador, ni del linter clippy.
     
     []Las funciones y los tipos de datos (struct) deben estar documentados siguiendo el estándar de cargo doc.
     
-    []El código debe formatearse utilizando cargo fmt.
+    [x]El código debe formatearse utilizando cargo fmt.
 
     []Las funciones no deben tener una extensión mayor a 30 líneas. Si se requiriera una extensión mayor, se deberá particionarla en varias funciones.
     
     []Cada tipo de dato implementado debe ser colocado en una unidad de compilación (archivo fuente) independiente.
 
-    ADVERTENCIA! El proyecto deberá realizarse de manera individual. Cualquier tipo de copia significa la expulsión automática de la materia. No está permitido el uso de código generado por ninguna IA, ni copiar código de soluciones existentes en internet.
 
-    IMPORTANTE: no cumplir con todas las restricciones y requisitos no funcionales implica la reentrega automática del ejercicio. Se debe prestar minuciosa atención a cada uno de los detalles.
-
-Fechas de entrega
-
-Primer entrega: 01/09
-
-Luego de la primer entrega se harán las correcciones correspondientes y se podrá volver a entregar el ejercicio en dos oportunidades más.
-
-La forma de entrega se comunicará por el canal de avisos.
-
-    No aprobar el trabajo imposibilitará la continuidad en la materia.
